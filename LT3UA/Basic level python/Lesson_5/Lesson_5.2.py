@@ -6,7 +6,7 @@ list_items = list_items[:-2]
 print(list_items)
 
 new_items = input("Enter your name: ")
-new_items = new_items.split()
+# new_items = new_items.split() created new list
 list_items.append(new_items)
 print(list_items)
 
