@@ -2,9 +2,10 @@
 # оновлений список.
 
 grades = [5, 3, 4, 2, 5]
-for i in grades:
-    if i <= 3:
-        grades.remove(i)
+i for i in grades if i > 3
+# for i in grades:
+#     if i <= 3:
+#         grades.remove(i)
 print(sorted(grades))
 
 
