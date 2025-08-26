@@ -3,5 +3,6 @@
 ivanov = 3, 4, 5
 petrov = 6, 4, 3
 vasilev = 4, 9, 1
-dict_3 = ([["Ivanov", sum(ivanov)/len(ivanov)],["Petrov", sum(petrov)/len(petrov)], ["Vasilev", sum(vasilev)/len(vasilev)]])
+
+dict_3 = ([["Ivanov", round(sum(ivanov)/len(ivanov), 2)],["Petrov", round(sum(petrov)/len(petrov), 2)], ["Vasilev", round(sum(vasilev)/len(vasilev), 2)]])
 print(dict_3)
