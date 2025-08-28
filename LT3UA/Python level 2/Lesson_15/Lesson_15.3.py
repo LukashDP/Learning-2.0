@@ -8,10 +8,6 @@
 # print(dict_3)
 
 
-students = {
-    "Ivanov": [3, 4, 5],
-    "Petrov": [6, 4, 3],
-    "Vasilev": [4, 9, 1]
-}
+students = {"Ivanov": [3, 4, 5],"Petrov": [6, 4, 3],"Vasilev": [4, 9, 1]}
 average_points = {name: round(sum(grades) / len(grades), 2) for name, grades in students.items()}
 print(average_points)
