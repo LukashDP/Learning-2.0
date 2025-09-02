@@ -2,7 +2,6 @@
 
 def summa1():
     a = input("Enter numbers: ").split()
-    b = a
-    print(sum(int(x) for x in b) / len(b))
+    print(sum(int(x) for x in a) / len(a))
 
 summa1()
